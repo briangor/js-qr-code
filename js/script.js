@@ -19,7 +19,7 @@ function generateQR() {
         foreground: '#5868bf',
         foregroundAlpha: 1,
         level: 'H',
-        padding: 3,
+        padding: 0,
         size: 256,
         value: weblink
       });
