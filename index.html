@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Maker</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <!-- /* Load the library */ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    
 </head>
+
 <body>
     <h4 class="title">QR Code</h4>
     <div class="form">
         <label for="">Link</label>
-        <input type="text" placeholder="Enter link">
-        <button>Generate</button>
+        <input type="text" placeholder="Enter link" id="weblink">
+        <button id="genQrBtn">Generate</button>
     </div>
-    <div class="result">
-        <span id="result"></span>
-    </div>
-    
+    <canvas id="qrcode"></canvas>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
