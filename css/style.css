@@ -3,4 +3,33 @@
   font-family: "Poppins";
 }
 
+body {
+  padding: 1rem 2rem;
+}
+
+.weblink {
+  width: 80%;
+}
+
+.qrcode-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#qrcode {
+  padding: 20px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    text-align: center;
+  }
+  .btn {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
