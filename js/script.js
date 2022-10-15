@@ -7,7 +7,8 @@ function generateQR() {
     weblink = document.getElementById('weblink').value;
 
     if (!weblink) {
-        weblink = 'The link is empty!';
+        error = 'The link is empty!';
+        alert(error);
         return;
     }
 
@@ -23,6 +24,5 @@ function generateQR() {
         value: weblink
       });
 
-    console.log(weblink);
     console.log('generate QR');
 }
