@@ -3,12 +3,24 @@
   font-family: "Poppins";
 }
 
-body {
-  padding: 1rem 2rem;
+.title, .form {
+  padding: 0rem 2rem;
 }
 
 .weblink {
   width: 80%;
+}
+
+.btn {
+  background-color: #5868bf;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #4355b8;
 }
 
 .qrcode-container {
@@ -17,11 +29,10 @@ body {
 }
 
 #qrcode {
-  padding: 20px;
   margin: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 701px) {
   .form {
     text-align: center;
   }
