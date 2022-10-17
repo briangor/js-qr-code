@@ -34,6 +34,10 @@
     margin: auto;
 }
 
+.empty-input {
+    border: 1px solid red;
+}
+
 @media only screen and (max-width: 701px) {
     .form {
         text-align: center;
