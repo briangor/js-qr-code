@@ -3,12 +3,17 @@
   font-family: "Poppins";
 }
 
-.title, .form {
+.title,
+.form {
   padding: 0rem 2rem;
 }
 
-.weblink {
-  width: 80%;
+.content-input {
+  padding: 6px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
 }
 
 .btn {
@@ -45,6 +50,4 @@
     margin: auto;
     margin-top: 1rem;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
