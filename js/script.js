@@ -34,15 +34,16 @@ let generateQR = () => {
     element: document.getElementById("qrcode"),
     background: '#fff',
     backgroundAlpha: 1,
-    foreground: '#5868bf',
+    foreground: '#7851a9', // #5868bf,
     foregroundAlpha: 1,
     level: 'H',
     padding: 0,
     size: 300,
+    mime: 'image/png',
     value: weblink
   });
 
-  console.log('generate QR');
+  //console.log(QRious.prototype);
 }
 
 btn.addEventListener("click", generateQR);
