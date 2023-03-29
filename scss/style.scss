@@ -1,50 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 
 * {
-    font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
-.title, .form {
-    padding: 0rem 2rem;
+.title,
+.form {
+  padding: 0rem 2rem;
 }
 
-.weblink {
-    width: 80%;
+.content-input {
+  padding: 6px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
 }
 
 .btn {
-    background-color: #5868bf;
-    color: #fff;
-    border: none;
-    padding: .5rem;
-    border-radius: .2rem;
-    cursor: pointer;
+  background-color: #5868bf;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
 
-    &:hover {
-        background-color: #4355b8;
-    }
+  &:hover {
+    background-color: #4355b8;
+  }
 }
 
 .qrcode-container {
-    text-align: center;
-    margin: 2rem 0;
+  text-align: center;
+  margin: 2rem 0;
 }
 
 #qrcode {
-    margin: auto;
+  margin: auto;
 }
 
 .empty-input {
-    border: 1px solid red;
+  border: 1px solid red;
 }
 
 @media only screen and (max-width: 701px) {
-    .form {
-        text-align: center;
-    }
-    .btn {
-        display: block;
-        margin: auto;
-        margin-top: 1rem;
-    }
+  .form {
+    text-align: center;
   }
+  .btn {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
