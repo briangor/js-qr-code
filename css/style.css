@@ -9,6 +9,8 @@
 }
 
 .content-input {
+  min-width: 50%;
+  max-width: 100%;
   padding: 6px 10px;
   box-sizing: border-box;
   border: 2px solid #ccc;
@@ -49,5 +51,9 @@
     display: block;
     margin: auto;
     margin-top: 1rem;
+  }
+  .content-input {
+    max-width: 100%;
+    min-width: 60%;
   }
 }/*# sourceMappingURL=style.css.map */
