@@ -34,7 +34,7 @@ let generateQR = () => {
     element: document.getElementById("qrcode"),
     background: '#fff',
     backgroundAlpha: 1,
-    foreground: '#7851a9', // #5868bf,
+    foreground: '#5868bf', // #5868bf, #7851a9
     foregroundAlpha: 1,
     level: 'H',
     padding: 0,
